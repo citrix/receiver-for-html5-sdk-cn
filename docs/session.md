@@ -80,12 +80,10 @@
           </td>
           
           <td class="description last">
-            包含 iframe DOM 对象或对在其中基于 launchType 启动会话的窗口的引用。
-          </td>
+            包含 iframe DOM 对象或对在其中基于 launchType 启动会话的窗口的引用。          </td>
         </tr>
       </table>
-    </td>
-  </tr>
+  
 </table>
 
 <br />
