@@ -4,15 +4,20 @@
 
 citrix.receiver
 
-## 成员<span class="type-signature">(readonly) </span><code>apiVersion</code><span class="type-signature"></span>### 属性：
+## 成员
+<span class="type-signature">(readonly) </span><code>apiVersion</code><span class="type-signature"></span>
+### 属性：
 
 | 名称           | 类型                                  | 说明                     |
 | ------------ | ----------------------------------- | ---------------------- |
 | `apiVersion` | <span class="param-type">字符串</span> | HTML5 Receiver API 版本。 |
 
-## 方法<span class="type-signature">(static) </span>createSession<span class="signature">(id<span class="signature-attributes">opt</span>, connectionParams, onSessionCreated)</span><span class="type-signature"></span>创建一个新会话并通过回调返回会话实例。可使用会话实例启动会话、注册和处理事件，以及断开会话连接。
+## 方法
+<span class="type-signature">(static) </span>createSession<span class="signature">(id<span class="signature-attributes">opt</span>, connectionParams, onSessionCreated)</span><span class="type-signature"></span>
+创建一个新会话并通过回调返回会话实例。可使用会话实例启动会话、注册和处理事件，以及断开会话连接。
 
-#### 参数：<table class=params>名称
+#### 参数：
+<table class=params>名称
 
 类型
 
