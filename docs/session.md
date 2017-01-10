@@ -1,6 +1,6 @@
 # 类：Session
 
-## 会话
+## Session
 
 #### <span class="type-signature"></span>new Session<span class="signature">()</span><span class="type-signature"></span>
 
@@ -90,7 +90,7 @@
 
 <br />
 
-#### <span class="type-signature">（只读）</span>id<span class="type-signature"></span>
+#### <span class="type-signature">(readonly) </span>id<span class="type-signature"></span>
 
 ##### 属性： {#properties-2.subsection-title}
 
@@ -126,7 +126,7 @@
 
 ### 方法
 
-#### <span class="type-signature">（内部）</span>addListener<span class="signature">(eventType, eventListener)</span><span class="type-signature"></span>
+#### <span class="type-signature">(inner) </span>addListener<span class="signature">(eventType, eventListener)</span><span class="type-signature"></span>
 
 按 eventType 注册 eventListener。
 
@@ -208,7 +208,7 @@ function onURLRedirectionHandler(event){
 sessionObject.addListener("onURLRedirection",onURLRedirectionHandler);
 ```
 
-#### <span class="type-signature">（内部）</span>changeResolution<span class="signature">(bounds)</span><span class="type-signature"></span>
+#### <span class="type-signature">(inner) </span>changeResolution<span class="signature">(bounds)</span><span class="type-signature"></span>
 
 更改会话的分辨率。
 
@@ -324,11 +324,11 @@ var bounds = {
 sessionObject.changeResolution(bounds);
 ```
 
-#### <span class="type-signature">（内部）</span>disconnect<span class="signature">()</span><span class="type-signature"></span>
+#### <span class="type-signature">(inner) </span>disconnect<span class="signature">()</span><span class="type-signature"></span>
 
 断开会话连接。
 
-#### <span class="type-signature">（内部）</span>removeListener<span class="signature">(eventType, eventListener)</span><span class="type-signature"></span>
+#### <span class="type-signature">(inner) </span>removeListener<span class="signature">(eventType, eventListener)</span><span class="type-signature"></span>
 
 按 eventType 删除 eventListener。
 
@@ -389,7 +389,7 @@ function connectionHandler(eventObj){
 sessionObject.removeListener("onConnection",connectionHandler);
 ```
 
-#### <span class="type-signature">（内部）</span>sendSpecialKeys<span class="signature">(keys)</span><span class="type-signature"></span> {#~sendSpecialKeys .name}
+#### <span class="type-signature">(inner) </span>sendSpecialKeys<span class="signature">(keys)</span><span class="type-signature"></span> {#~sendSpecialKeys .name}
 
 向会话发送键组合。此版本中仅支持“ctrl+alt+del”。
 
@@ -432,7 +432,7 @@ var keys = "ctrl+alt+del"; //Only this key combination is supported in this vers
 sessionObject.sendSpecialKeys(keys);
 ```
 
-#### <span class="type-signature">（内部）</span>start<span class="signature">(launchData)</span><span class="type-signature"></span>
+#### <span class="type-signature">(inner) </span>start<span class="signature">(launchData)</span><span class="type-signature"></span>
 
 启动会话。
 

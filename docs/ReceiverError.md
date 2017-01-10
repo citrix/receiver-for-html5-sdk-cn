@@ -4,7 +4,7 @@
 
 new ReceiverError()
 
-### 成员<span class="type-signature">（静态）</span>this.description
+### 成员<span class="type-signature">(static) </span> this.description
 
 #### 属性：<table class=props>名称
 
@@ -14,7 +14,7 @@ new ReceiverError()
   错误的说明。</table> 
   
   <p>
-    <span class="type-signature">（静态）</span>this.type
+    <span class="type-signature">(static) </span> this.type
   </p>
   
   <h4>

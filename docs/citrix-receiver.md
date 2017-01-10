@@ -4,13 +4,13 @@
 
 citrix.receiver
 
-## 成员<span class="type-signature">（只读）</span><code>apiVersion</code><span class="type-signature"></span>### 属性：
+## 成员<span class="type-signature">(readonly) </span><code>apiVersion</code><span class="type-signature"></span>### 属性：
 
 | 名称           | 类型                                  | 说明                     |
 | ------------ | ----------------------------------- | ---------------------- |
 | `apiVersion` | <span class="param-type">字符串</span> | HTML5 Receiver API 版本。 |
 
-## 方法<span class="type-signature">（静态）</span>createSession<span class="signature">(id<span class="signature-attributes">opt</span>, connectionParams, onSessionCreated)</span><span class="type-signature"></span>创建一个新会话并通过回调返回会话实例。可使用会话实例启动会话、注册和处理事件，以及断开会话连接。
+## 方法<span class="type-signature">(static) </span>createSession<span class="signature">(id<span class="signature-attributes">opt</span>, connectionParams, onSessionCreated)</span><span class="type-signature"></span>创建一个新会话并通过回调返回会话实例。可使用会话实例启动会话、注册和处理事件，以及断开会话连接。
 
 #### 参数：<table class=params>名称
 
@@ -125,7 +125,7 @@ citrix.receiver
           </h2>
           
           <p>
-            <span class="type-signature">（静态）</span>setPath<span class="signature">(path)</span><span class="type-signature"></span> {#.setPath .name}
+            <span class="type-signature">(static) </span>setPath<span class="signature">(path)</span><span class="type-signature"></span> {#.setPath .name}
           </p>
           
           <p>
@@ -170,7 +170,7 @@ citrix.receiver
             引发：
           </h4>
           
-          <pre><code>路径为空。
+          <pre><code>Path is empty.
 </code></pre>
           
           <p>
@@ -178,7 +178,7 @@ citrix.receiver
           </p>
           
           <p>
-            <span class="type-signature">（静态）</span>viewLog<span class="signature">()</span><span class="type-signature"></span> {#.viewLog .name}
+            <span class="type-signature">(static) </span>viewLog<span class="signature">()</span><span class="type-signature"></span> {#.viewLog .name}
           </p>
           
           <p>
