@@ -7,13 +7,13 @@ markdown_extensions:
   -  toc:
       anchorlink: true
 pages:
-  - HDX SDK for HTML5: index.md
-  - SDK Capabilities: capabilities.md
-  - API Reference:
-      - Class:
+   - 适用于 HTML5 的 HDX SDK: index.md
+  - SDK 功能: capabilities.md
+  - API 参考:
+      - 类:
         - ReceiverError: ReceiverError.md
         - Session: session.md
-      - Namespaces:
+      - 命名空间:
           - Receiver: citrix-receiver.md
-      - Global: global.md
-  - SDK Sample: sample.md
+      - 全局: global.md
+  - SDK 示例: sample.md
