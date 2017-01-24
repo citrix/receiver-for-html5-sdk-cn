@@ -7,7 +7,7 @@ markdown_extensions:
   -  toc:
       anchorlink: true
 pages:
-   - 适用于 HTML5 的 HDX SDK: index.md
+  - 适用于 HTML5 的 HDX SDK: index.md
   - SDK 功能: capabilities.md
   - API 参考:
       - 类:
